@@ -40,6 +40,8 @@ java -cp ../../openapi-generator-cli-5.0.0-beta.jar org.openapitools.codegen.Ope
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Contribute](CONTRIBUTING.md)
 - [API Gurus - Open API Repository](https://github.com/APIs-guru/openapi-directory)
+- [Dart Github Client README](tree/master/lib/dart/github)
+- [JS Github Client README](tree/master/lib/js/github)
 
 ## Contributors
 
