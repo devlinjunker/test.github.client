@@ -1,0 +1,16 @@
+# openapi.model.InlineObject128
+
+## Load the model package
+```dart
+import 'package:openapi/api.dart';
+```
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**body** | **String** | The discussion post&#39;s body text. | [optional] [default to null]
+**title** | **String** | The discussion post&#39;s title. | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
