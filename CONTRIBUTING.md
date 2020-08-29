@@ -7,15 +7,11 @@ Thanks for helping out!
 The best way to [report an issue is through Github](../../issues). The owners of the repo should get an email notification whenever a new issue is created.
 
 
-## Development 
+## Development
 
 ### Environment Setup and Tools
 
 _TODO: Detail the steps to setup the project for development_
-
-Cloning this repo requires the use of Git, or you can use the template feature provided by Github. You can also download an archive of the repository contents using the Github "Download" link and extract this to access all of the files and create a new Git repository with them.
-
-Once you have a framework and development environment chosen for your project you should update your repo with specifics about how to install the tools and dependencies needed to run/debug/develop the application.
 
 
 ### Folder Structure
@@ -57,9 +53,7 @@ Shell scripts can be created to help with deployment/installation or running the
 
 ### Style Guide
 
-_TODO_ 
-
-Make sure to only include basic documentation and Github setup files in this Template!
+_TODO_
 
 
 ### Branching and Pull Requests
@@ -76,7 +70,7 @@ Each feature that is created should be in it's own `feature-` branch in the git 
      o--o--o`feature-XXX-HEAD`                               o--o--o
 ```
 
-If this is a larger feature (> 1 week of real time) or you think it will be useful to document each step/get feedback on smaller pieces, then it is best to create a new branch (`branch-1`) off of the feature branch for the smaller pieces of code. After a section of the larger feature is completed, or if you think feedback would be useful, you can create a Pull Request (PR) on Github from the `branch-1` to the `feature-*` branch. 
+If this is a larger feature (> 1 week of real time) or you think it will be useful to document each step/get feedback on smaller pieces, then it is best to create a new branch (`branch-1`) off of the feature branch for the smaller pieces of code. After a section of the larger feature is completed, or if you think feedback would be useful, you can create a Pull Request (PR) on Github from the `branch-1` to the `feature-*` branch.
 
 ```
  --o--o--o`master-HEAD`                                           --o--o--o`master-HEAD`                                          --o--o--o-------o`master-HEAD`
@@ -86,7 +80,7 @@ If this is a larger feature (> 1 week of real time) or you think it will be usef
           o--o`branch-1-HEAD`                                              o--o                                                            o--o
 ```
 
-**Note:** After you create the PR, any new changes that are unrelated to the code changes in the PR should be in a new branch (`branch-2`) that starts at the end of `branch-2`. 
+**Note:** After you create the PR, any new changes that are unrelated to the code changes in the PR should be in a new branch (`branch-2`) that starts at the end of `branch-2`.
 
 ```
  --o--o--o`master-HEAD`                                           --o--o--o`master-HEAD`                                            --o--o--o`master-HEAD`
@@ -105,7 +99,7 @@ Code Reviews are an important part of the software development process. They hel
 
 **Tips:**
 
- - Make sure to ask any questions you can come up with to ensure you understand what the changes are doing. 
+ - Make sure to ask any questions you can come up with to ensure you understand what the changes are doing.
  - Review the logic of the code to be sure that it is doing what the author says it should
  - Try to think of any edge cases they may have missed.
  - Ensure formatting and style guide is followed

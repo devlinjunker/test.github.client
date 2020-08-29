@@ -1,34 +1,36 @@
-# Template Github Repo
+# Testing Auto Generated OpenAPI Clients
 
-_Put some badges up here!_
 
 ## Intro
 
-_This is a template project with all of the basic files and directory structure for a [Github Repo :100:%](../../community)_
+This project is practicing using the OpenAPI generator to create API clients to access existing APIs
 
 ## Dependencies/Frameworks
-_List the frameworks, libraries, and tools the project uses:_
 
-- GitHub - this template is based on the GitHub completion stats and has a `.github/` directory
+- Java (Tested with Java 8)
+- [Open API Generator](https://search.maven.org/search?q=a:openapi-generator-cli)
 
 ## Quick Setup/Run
 
-_This section should try to quickly explain how to setup the project and start using it (server/app/demo/template) - ideally in list format_
- - [ ] Review [License](LICENSE) File
- - [ ] Review [Security Policy](SECURITY.md) and Update
- - [ ] Update this README, Links and any documentation files with project specific changes
- - [ ] (Optional) Modify [Issue Templates](.github/ISSUE_TEMPLATE/)
- - [ ] (Optional) Set up Github Workflows
- - [ ] Add Project Build and Configuration Files
- - Start Coding!
+- [ ] Download Repo
+- [ ] Auto Generate JavaScript API Client JS inside unique directory in  `lib/`
+**Example:**
+```
+cd lib/js/;
+mkdir github;
+cd github;
+java -cp ../openapi-generator-cli-5.0.0-beta.jar org.openapitools.codegen.OpenAPIGenerator generate -i https://raw.githubusercontent.com/APIs-guru/openapi-directory/master/APIs/github.com/0.0.5/openapi.yaml --additional-properties pubName=github-api -g javascript --enable-post-process-file
+```
+- [ ] Build javascript in unique dir `dist/` subdirectory with `npm run build`
+   - May need to resolve issues in JS generation (duplicate params)
+- [ ] TBD: Use Generated Client in Javascript project
+
 
 ## Links
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Contribute](CONTRIBUTING.md)
-- FAQ?
-- Wiki?
-- Architecture Doc? -- How to understand the application from a developer point of view (webpage-> controllers -> services -> libraries)
+- [API Gurus - Open API Repository](https://github.com/APIs-guru/openapi-directory)
 
 ## Contributors
 
